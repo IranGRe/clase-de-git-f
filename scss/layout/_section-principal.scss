@@ -1,0 +1,33 @@
+main{
+
+    section{
+        #titulo-princial{
+            font-family: cursive;
+            text-align: center;
+            font-size: 2rem;
+            margin-top: 15px;
+        }
+        
+        p{
+            margin: 25px;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .container-boton{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+             .boton-principal{
+                @extend p;
+                background-color: #4a4e69;
+                padding: 20px;
+                text-decoration: none;
+                color: white;
+                border-radius: 20px 10px 0px 10px;
+            }
+
+        }
+    }
+}
+

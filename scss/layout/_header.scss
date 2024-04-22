@@ -1,0 +1,39 @@
+header{
+    background-color: #4a4e69;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px;
+
+
+    nav{
+        ul{
+            list-style-type: none;
+            display: flex;
+            margin-top: 15px;
+
+            li{
+                a{
+                    text-decoration: none;
+                    color: white;
+                    margin: 5px;
+                    
+                }
+            }
+        }
+    }
+   
+
+   
+
+    .logo{
+        width: 60px;
+    }
+
+    .boton-plataforma{
+        img{
+            width: 40px;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+footer{
+    background-color: #4a4e69;
+    position: fixed; /* Fija el footer en una posición específica */
+    bottom: 0; /* Lo coloca al final del contenedor */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+    ul{
+        display: flex;
+        list-style-type: none;
+
+
+        li{
+            margin: 5px;
+            a{
+                img{
+                    width: 30px;
+                }
+            }
+        }
+    }
+}
