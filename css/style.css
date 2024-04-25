@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -44,28 +45,16 @@ header .boton-plataforma img {
   width: 40px;
 }
 
-main section #titulo-princial {
-  font-family: cursive;
+main .inicio {
+  padding: 60px;
   text-align: center;
-  font-size: 2rem;
-  margin-top: 15px;
 }
-main section p, main section .container-boton .boton-principal {
-  margin: 25px;
-  text-align: center;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+main .inicio img {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
 }
-main section .container-boton {
-  display: flex;
+main .inicio h1 {
   justify-content: center;
-  align-items: center;
-}
-main section .container-boton .boton-principal {
-  background-color: #4a4e69;
-  padding: 20px;
-  text-decoration: none;
-  color: white;
-  border-radius: 20px 10px 0px 10px;
+  padding: 30px;
 }
 
 main .contacto {
@@ -80,7 +69,7 @@ main .contacto h1 {
   font-size: 30px;
   margin-bottom: 20px;
 }
-main .contacto p, main .contacto section .container-boton .boton-principal, main section .container-boton .contacto .boton-principal {
+main .contacto p {
   font-family: Arial, Helvetica, sans-serif;
 }
 main .contacto-form {
@@ -125,7 +114,7 @@ main .contacto-form .form-row button {
   font-size: 16px;
   font-weight: bold;
   color: white;
-  background-color: #4a4e69;
+  background-color: black;
   border: none;
   border-radius: 3px;
   padding: 10px 40px;
@@ -144,22 +133,40 @@ footer {
   bottom: 0; /* Lo coloca al final del contenedor */
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  display: block;
+  justify-content: center;
+  color: white;
+  align-items: center;
 }
-footer ul {
+footer .contenedor-foot-1 {
+  margin: 10px;
+}
+footer .contenedor-foot-1 .titulo-seccion {
+  text-align: center;
+  font-size: 1.5rem;
+}
+footer .contenedor-foot-1 .copy {
   display: flex;
-  list-style-type: none;
+  justify-content: center;
+  font-size: 0.6rem;
 }
-footer ul li {
-  margin: 5px;
+footer .redes-sociales {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
-footer ul li a img {
+footer .redes-sociales img {
   width: 30px;
 }
 
 @media only screen and (max-width: 600px) {
   header nav {
     display: none;
+  }
+}
+@media screen and (max-width: 574px) {
+  footer ul {
+    display: block;
   }
 }
 .div-servicios {
@@ -193,7 +200,7 @@ footer ul li a img {
   font-size: 2rem;
   justify-content: center;
 }
-.contenedor-tarjetas .contenedor-uno p, .contenedor-tarjetas .contenedor-uno main section .container-boton .boton-principal, main section .container-boton .contenedor-tarjetas .contenedor-uno .boton-principal {
+.contenedor-tarjetas .contenedor-uno p {
   margin: 15px;
   font-family: Arial, Helvetica, sans-serif;
 }
