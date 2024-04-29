@@ -1,0 +1,11 @@
+.container-gale{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px; /* Puedes ajustar este valor según el ancho deseado */
+    margin: 0 auto;
+
+    .carousel{
+        margin: 50px;
+    }
+}

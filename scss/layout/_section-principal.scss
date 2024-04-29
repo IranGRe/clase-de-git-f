@@ -15,39 +15,69 @@ main{
         
     }
 
+    .inicio-2{
+        align-items:center;
+        justify-content: center;
+        color: white;
+        background-color: gray;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: flex;
+        margin: 20px;
+
+
+        h2{
+            font-family: cursive;
+            font-size: 2rem;
+            padding-bottom: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div{
+            margin: 20px;
+
+            
+            .btn-conocelos{
+                display: inline-block;
+                align-items: center;
+                justify-content: center;
+                padding: 10px 20px;
+                background-color: #FA8072;
+                color: white;
+                text-decoration: none;
+                border-radius: 5px;
+                border: none; 
+                cursor: pointer; 
+                font-family: cursive;
+                font-size: 25px;
+                transition: background-color 0.3s;
+                margin-left: 125px;
+                            
+                
+                  a{
+                        color:white;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 10px 20px 50px 20px;
+                        text-decoration: none;
+                    }
+               
+            }
+            .btn-conocelos:hover{
+                background-color: #FF6347;
+            }
+
+            p{
+                font-size: 1rem;
+            }
+            img{
+                width: 280px;
+            }
+        }
+    }
 
 
 
 
-
-    // section{
-    //     #titulo-princial{
-    //         font-family: cursive;
-    //         text-align: center;
-    //         font-size: 2rem;
-    //         margin-top: 15px;
-    //     }
-        
-    //     p{
-    //         margin: 25px;
-    //         text-align: center;
-    //         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    //     }
-
-    //     .container-boton{
-    //         display: flex;
-    //         justify-content: center;
-    //         align-items: center;
-    //          .boton-principal{
-    //             @extend p;
-    //             background-color: #4a4e69;
-    //             padding: 20px;
-    //             text-decoration: none;
-    //             color: white;
-    //             border-radius: 20px 10px 0px 10px;
-    //         }
-
-    //     }
-    // }
 }
 

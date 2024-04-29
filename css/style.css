@@ -56,6 +56,58 @@ main .inicio h1 {
   justify-content: center;
   padding: 30px;
 }
+main .inicio-2 {
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: gray;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  margin: 20px;
+}
+main .inicio-2 h2 {
+  font-family: cursive;
+  font-size: 2rem;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .inicio-2 div {
+  margin: 20px;
+}
+main .inicio-2 div .btn-conocelos {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: #FA8072;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-family: cursive;
+  font-size: 25px;
+  transition: background-color 0.3s;
+  margin-left: 125px;
+}
+main .inicio-2 div .btn-conocelos a {
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px 50px 20px;
+  text-decoration: none;
+}
+main .inicio-2 div .btn-conocelos:hover {
+  background-color: #FF6347;
+}
+main .inicio-2 div p {
+  font-size: 1rem;
+}
+main .inicio-2 div img {
+  width: 280px;
+}
 
 main .contacto {
   align-items: center;
@@ -128,34 +180,18 @@ main .contacto-form .form-row button:active {
 }
 
 footer {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 10px;
   background-color: #4a4e69;
-  position: fixed; /* Fija el footer en una posición específica */
-  bottom: 0; /* Lo coloca al final del contenedor */
-  width: 100%;
   display: flex;
-  display: block;
-  justify-content: center;
-  color: white;
   align-items: center;
+  justify-content: space-around;
+  color: white;
 }
-footer .contenedor-foot-1 {
-  margin: 10px;
+footer .datos-contac ul {
+  list-style-type: none;
 }
-footer .contenedor-foot-1 .titulo-seccion {
-  text-align: center;
-  font-size: 1.5rem;
-}
-footer .contenedor-foot-1 .copy {
-  display: flex;
-  justify-content: center;
-  font-size: 0.6rem;
-}
-footer .redes-sociales {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-footer .redes-sociales img {
+footer img {
   width: 30px;
 }
 
@@ -165,10 +201,59 @@ footer .redes-sociales img {
   }
 }
 @media screen and (max-width: 574px) {
-  footer ul {
+  footer {
     display: block;
+    margin: 20px;
   }
 }
+@media screen and (max-width: 711px) {
+  .inicio-2 {
+    flex-wrap: wrap;
+  }
+}
+div h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.container-cards {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.container-cards .card {
+  padding: 20px;
+  margin: 30px;
+  width: 300px;
+  height: 550px;
+  border: 1px solid white;
+  border-radius: 15px;
+  box-shadow: 16px 24px 41px 33px rgba(0, 0, 0, 0.5);
+}
+.container-cards .card p {
+  margin: 10px;
+}
+.container-cards .card ul {
+  margin: 10px;
+  margin-left: 30px;
+}
+.container-cards .card li {
+  padding: 2px;
+}
+
+.container-serv {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  margin: 10px;
+}
+.container-serv div p {
+  margin: 20px;
+  font-size: 1.5rem;
+}
+
 .div-servicios {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -232,6 +317,17 @@ footer .redes-sociales img {
   margin: 5px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.9rem;
+}
+
+.container-gale {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px; /* Puedes ajustar este valor según el ancho deseado */
+  margin: 0 auto;
+}
+.container-gale .carousel {
+  margin: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -5,7 +5,14 @@
 }
 
 @media screen and  (max-width: 574px){
-    footer ul{
+    footer {
         display: block;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 711px){
+    .inicio-2{
+        flex-wrap: wrap;
     }
 }
