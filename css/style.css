@@ -58,7 +58,6 @@ main .inicio h1 {
 }
 main .inicio-2 {
   align-items: center;
-  justify-content: center;
   color: white;
   background-color: gray;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -85,8 +84,13 @@ main .inicio-2 h3 {
 }
 main .inicio-2 div {
   margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 main .inicio-2 div .btn-conocelos {
+  width: 200px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,17 +101,12 @@ main .inicio-2 div .btn-conocelos {
   border-radius: 5px;
   border: none;
   cursor: pointer;
-  font-family: cursive;
   font-size: 25px;
   transition: background-color 0.3s;
-  margin-left: 125px;
 }
 main .inicio-2 div .btn-conocelos a {
   color: white;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  align-items: center;
   padding: auto;
   text-decoration: none;
 }
