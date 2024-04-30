@@ -4,8 +4,47 @@
     justify-content: center;
     max-width: 400px; /* Puedes ajustar este valor según el ancho deseado */
     margin: 0 auto;
+    
 
     .carousel{
         margin: 50px;
+        box-shadow:  0 0 30px rgb(0, 0, 0, 0.9);
+    }
+}
+
+
+.galeria-2{
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    
+    div{
+        text-align: center;
+        
+
+        h3{
+            margin-top: 50px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 2rem;
+        }
+
+        h4{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 1.5rem;
+
+        }
+
+        ul{
+            text-align: center;
+            justify-content: center;
+            margin-left: 150px;
+
+
+            li{
+                padding: 5px;
+            }
+        }
+
+
     }
 }

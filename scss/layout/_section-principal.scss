@@ -23,12 +23,23 @@ main{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         display: flex;
         margin: 20px;
-
+        
+        p{
+            margin-left: 60px;
+        }
 
         h2{
-            font-family: cursive;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             font-size: 2rem;
             padding-bottom: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h3{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 1.5rem;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -38,10 +49,10 @@ main{
 
             
             .btn-conocelos{
-                display: inline-block;
-                align-items: center;
+                display: flex;
                 justify-content: center;
-                padding: 10px 20px;
+                align-items: center;
+                padding: auto;
                 background-color: #FA8072;
                 color: white;
                 text-decoration: none;
@@ -53,12 +64,14 @@ main{
                 transition: background-color 0.3s;
                 margin-left: 125px;
                             
-                
+               
                   a{
                         color:white;
+                        display: flex;
                         justify-content: center;
                         align-items: center;
-                        padding: 10px 20px 50px 20px;
+                        align-items: center;
+                        padding: auto;
                         text-decoration: none;
                     }
                
@@ -69,6 +82,7 @@ main{
 
             p{
                 font-size: 1rem;
+            
             }
             img{
                 width: 280px;
@@ -80,4 +94,11 @@ main{
 
 
 }
+
+
+
+  
+  
+  
+ 
 
