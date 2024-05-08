@@ -1,46 +1,18 @@
+
 header{
-    align-items: center;
-    background-color: #4a4e69;
-    color: white;
-    padding: 15px;
-    display: flex;
-    justify-content: space-around;
-    border-bottom: 1px;
-
-
     nav{
-        ul{
-            list-style-type: none;
-            display: flex;
-
-            li{
-                margin: 5px;
-                a{
-                    text-decoration: none;
-                    color: white;
-                    font-family: Arial, Helvetica, sans-serif;
-                    transition: 1s;
-
-                    &:hover{
-                        color: black;
-                        margin: 20px;
-                        font-size: bold;
-                    }
-                }
-            }
-        }
-    }
-   
-
-   
-
-    .logo{
-        width: 60px;
-    }
-
-    .boton-plataforma{
         img{
-            width: 40px;
+            width: 50px;
+        }
+        a{
+            margin: 10px;
+            &:hover{
+                color: blue !important;
+                padding: 10px;
+                font-size: bold;
+            }
+
         }
     }
+
 }

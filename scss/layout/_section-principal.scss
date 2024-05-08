@@ -1,10 +1,67 @@
 main{
 
+    .container-inicio-2{
+        @extend .container-historia-2;
+        background-color: grey;
+
+
+        .inicio-2{
+            @extend .content-2;
+            margin: 20px;
+           
+            h2{
+                color: white;
+                text-align: center;
+                font-family: var(--tipo-fuente);
+                font-size: 2rem;
+            }
+
+            h3{
+                color: white;
+                font-size: 1.5rem;
+                font-family: var(--tipo-fuente);
+            }
+
+           
+        }
+
+        .estilos-img-inicio{
+            @extend .content-3;
+        }
+
+        
+        
+    }
+    .container-btn-ini{
+
+        
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+         .btn-prueba{
+            
+            color: white;
+            display: flex;
+            background-color: var(--color-boton);
+            padding: 15px;
+            text-decoration: none;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.5rem;
+         }
+         a:hover{
+            background-color: var(--color-boton-h);
+         }
+    }   
+
+
     .inicio{
         padding: 60px;
         text-align: center;
+        
         img{
-            
+            height: 400px;
             box-shadow:  0 0 30px rgb(0, 0, 0, 0.9);
         }
         h1{
@@ -14,83 +71,6 @@ main{
        
         
     }
-
-    .inicio-2{
-        align-items:center;
-        color: white;
-        background-color: gray;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        display: flex;
-        margin: 20px;
-        
-        p{
-            margin-left: 60px;
-        }
-
-        h2{
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            font-size: 2rem;
-            padding-bottom: 40px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        h3{
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            font-size: 1.5rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        div{
-            margin: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-            
-            .btn-conocelos{
-                width: 200px;
-                height: 50px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                padding: auto;
-                background-color: #FA8072;
-                color: white;
-                text-decoration: none;
-                border-radius: 5px;
-                border: none; 
-                cursor: pointer; 
-                font-size: 25px;
-                transition: background-color 0.3s;
-                            
-               
-                  a{
-                        color:white;
-                        display: flex;
-                        padding: auto;
-                        text-decoration: none;
-                    }
-               
-            }
-            .btn-conocelos:hover{
-                background-color: #FF6347;
-            }
-
-            p{
-                font-size: 1rem;
-            
-            }
-            img{
-                width: 280px;
-            }
-        }
-    }
-
-
-
 
 }
 

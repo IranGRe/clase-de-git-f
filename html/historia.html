@@ -8,6 +8,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- link CSS -->
     <link rel="stylesheet" href="../css/style.css">
+    <!-- link de Animacion -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 
     
@@ -15,75 +20,87 @@
 <body>    
 
 
-    <header>
-        <a href="../index.html"><img class="logo" src="../assets/LOGO.png" alt="logo"></a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">Inicio</a>
+    <header class="animate__animated animate__pulse">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary " data-bs-theme="dark">
+            <div class="container-fluid">
+                <a href="index.html"><img class="logo" src="../assets/LOGO.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                 </li>
-                <li>
-                    <a href="contacto.html">Contactanos</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
                 </li>
-                <li>
-                    <a href="historia.html">Mi Historia</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="galeria.html">Galeria</a>
                 </li>
-                <li>
-                    <a href="galeria.html">Galeria</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="historia.html">Mi Historia</a>
                 </li>
-                <li>
-                    <a href="servicios.html">Servicios</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="servicios.html">Servicios</a>
                 </li>
-            </ul>
+                </ul>
+            </div>
+            </div>
         </nav>
-        <div>
-            <a href="#"><img class="menu-hamburguesa" class="menu-hamburguesa" src="../assets/menu-hamburguesa.png" alt="menu hamburguesa"></a>
-        </div>
     </header>
 
     <section class="container-historia">
         <div class="content-historia">
-          <h1>Mi Historia como Asesora de Imagen</h1>
-          <p>Bienvenidos a mi mundo de la imagen, soy Kenia Bastidas, una apasionada asesora de imagen con una trayectoria de más de una década en el fascinante mundo de la moda y el estilo.</p>
-          <p>Mi pasión por la moda y el diseño comenzó desde muy joven. Recuerdo cómo me encantaba jugar con la ropa de mi madre y crear nuevos conjuntos imaginativos. A medida que crecí, mi fascinación por la moda se convirtió en una vocación y decidí convertirla en mi profesión.</p>
-          <p>Después de graduarme en Diseño de Moda y Estilismo en una reconocida escuela de diseño, comencé mi carrera trabajando en revistas de moda, donde aprendí sobre las últimas tendencias y estilos que dominaban el mercado. Esta experiencia me brindó una comprensión profunda de cómo la imagen puede influir en la percepción de una persona y en su confianza en sí misma.</p>
-          <p>Con el tiempo, decidí centrarme en el asesoramiento de imagen personalizado. Creo firmemente que todos tienen el potencial de lucir y sentirse increíbles, y mi objetivo es ayudar a mis clientes a descubrir su propio estilo único y a proyectar una imagen que refleje su personalidad y metas.</p>
-          <p>Mi enfoque va más allá de simplemente elegir la ropa adecuada. Trabajo estrechamente con mis clientes para comprender sus necesidades, estilo de vida y objetivos personales. Desde la selección de prendas hasta la elección de colores, pasando por el estilo del cabello y el maquillaje, cada detalle se cuida con atención para crear una imagen coherente y auténtica que hable por sí misma.</p>
-          <p>Creo en el poder transformador de la imagen y cómo puede influir en la forma en que nos vemos a nosotros mismos y en cómo nos perciben los demás. Ver a mis clientes ganar confianza y seguridad a medida que descubren su verdadero potencial es lo que me impulsa cada día.</p>
-          <p>Si estás listo para dar el primer paso hacia una imagen que te empodere y te haga brillar en cada ocasión, estoy aquí para acompañarte en ese viaje hacia una versión más segura y radiante de ti mismo.</p>
-          <p>¡Permíteme ayudarte a alcanzar tu máximo potencial de imagen y estilo!</p>
+          <h1>Ven y te cuento mi Historia</h1>
+            <p>Durante mucho tiempo mire la ropa como un “escape” sin darme cuenta de que para mi estaba siendo una herramienta de autoconocimiento y autocuidado la cual me estaba ayudando a fortalecer la relación conmigo misma.</p>
+            <p>No todo fue color de rosa porque en este camino de autoconocimiento a través de mi closet pude ver todas las etapas de mi vida desde que llegue a Chile (desde vestirme para una impresionar a un hombre por no querer estar sola hasta comprar ropa compulsivamente para llenar otros vacíos).</p>
+            <p>Paso el tiempo, la terapia me salvo. Mi vida dio un giro y todo se sentia mejor, yo me sentía mejor.</p>
+        </div>
+    </section>
+
+    <section class="container-historia-2">
+        <div class="content-2">
+            <p>Me sentía tan bien que decidí cumplir uno de mis sueños, tener mi propia tienda en linea para vender ropa, era el paso lógico para mi.</p>
+            <p>Así nació  Vyda Bonita, mi Asesoria de Imagen.</p>
+            <p>Fue una etapa maravillosa pero en resumen sentía que no estaba dando el mensaje que realmente quería dar, no estaba compartiendo mi experiencia, me estaba enfocando solo en vender mas que en ayudar a mis clientas. Y es así como con nostalgia pero al mismo tiempo emoción decidí cambiar radicalmente, dejar de vender productos físicos y formarme para compartir de forma profesional mi perspectiva sobre el estilo como herramienta de autoconocimiento y autocuidado.</p>
+        </div>
+        <div class="content-3">
+            <img src="../assets/img-sobremi.jpg" alt="foto kenia de su historia">
         </div>
     </section>
 
 
 
+    
+    <footer> 
+        <div class="datos-contac">
+            <ul>
+                <li>Telefono: +56 9 3484 6736</li>
+                <li>Email: kbbastidas@gmail.com</li>
+            </ul>
+        </div>
+    
+        <div class="contenedor-foot-1">
+    
+            <p class="copy">© 2024 Iran Chacon / Todos los derechos reservados</p>
+        </div>
+    
+        <div class="redes-sociales">
+            <a href="https://www.instagram.com/keniabastidass/" target="_blank"><img src="../assets/instagram.png" alt="instagram kenia"></a>
+            <a href="https://web.facebook.com/kenia.bastidas.3" target="_blank"><img src="../assets/facebook.png" alt="facebook kenia"></a>
+        </div>
+    
+       
+    
+    
+    </footer>  
+    
+    <!-- script de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   
     
 </body>
-<footer> 
-    <div class="datos-contac">
-        <ul>
-            <li>Telefono: +56 9 3484 6736</li>
-            <li>Email: kbbastidas@gmail.com</li>
-        </ul>
-    </div>
 
-    <div class="contenedor-foot-1">
-
-        <p class="copy">© 2024 Iran Chacon / Todos los derechos reservados</p>
-    </div>
-
-    <div class="redes-sociales">
-        <a href="https://www.instagram.com/keniabastidass/" target="_blank"><img src="../assets/instagram.png" alt="instagram kenia"></a>
-        <a href="https://web.facebook.com/kenia.bastidas.3" target="_blank"><img src="../assets/facebook.png" alt="facebook kenia"></a>
-    </div>
-
-   
-
-
-</footer>  
-
-<!-- script de bootstrap -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </html>

@@ -1,0 +1,22 @@
+@mixin estilosDeTexto($fuente, $size, $color, $grosor){
+    font-family: $fuente;
+    font-size: $size;
+    color: $color;
+    font-weight: $grosor;
+}
+
+.container-inicio-2{
+    .inicio-2{
+        p{
+            @include estilosDeTexto(times, 1rem, white, bold);
+        }
+    }
+}
+
+.container-inicio{
+    .inicio{
+        p{
+            @include estilosDeTexto(times, 1rem, black, bold);
+        }
+    }
+}

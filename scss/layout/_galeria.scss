@@ -1,8 +1,12 @@
+.titulo-galeria{
+    @extend .titulo-servicio;
+}
+
 .container-gale{
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 400px; /* Puedes ajustar este valor según el ancho deseado */
+    max-width: 400px;
     margin: 0 auto;
     
 
@@ -24,12 +28,12 @@
 
         h3{
             margin-top: 50px;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-family:  var(--tipo-fuente);
             font-size: 2rem;
         }
 
         h4{
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-family: var(--tipo-fuente);
             font-size: 1.5rem;
 
         }
@@ -37,7 +41,7 @@
         ul{
             text-align: center;
             justify-content: center;
-            margin-left: 150px;
+            margin-left: 10px
 
 
             li{
